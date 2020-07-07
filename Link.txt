@@ -11,3 +11,5 @@ https://kipalog.com/posts/Trien-khai-du-an-laravel-voi-laradock--p-1
 http://blog.scuti.asia/2019/03/gioi-thieu-ve-docker-blogs-nay-chu-yeu.html
 
 https://gsviec.com/playlist/khoa-hoc-docker-can-ban
+
+https://linhchh96.wordpress.com/2020/04/11/deploy-code-laravel-len-heroku/
