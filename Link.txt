@@ -15,3 +15,7 @@ https://gsviec.com/playlist/khoa-hoc-docker-can-ban
 https://linhchh96.wordpress.com/2020/04/11/deploy-code-laravel-len-heroku/
 
 https://viblo.asia/p/quan-ly-git-va-project-github-voi-atom-3P0lPvAGKox
+
+https://blog.vu-review.com/docker-toan-tap.html
+
+https://viblo.asia/p/gioi-thieu-ve-laradock-lxrRXNDbzeO
