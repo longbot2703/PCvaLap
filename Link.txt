@@ -23,3 +23,5 @@ https://viblo.asia/p/gioi-thieu-ve-laradock-lxrRXNDbzeO
 https://www.hostinger.vn/huong-dan/huong-dan-docker/
 
 https://viblo.asia/p/docker-compose-la-gi-kien-thuc-co-ban-ve-docker-compose-1VgZv8d75Aw
+
+https://viblo.asia/p/trien-khai-web-tren-heroku-djeZ1RWglWz
