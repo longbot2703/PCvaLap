@@ -21,3 +21,5 @@ https://blog.vu-review.com/docker-toan-tap.html
 https://viblo.asia/p/gioi-thieu-ve-laradock-lxrRXNDbzeO
 
 https://www.hostinger.vn/huong-dan/huong-dan-docker/
+
+https://viblo.asia/p/docker-compose-la-gi-kien-thuc-co-ban-ve-docker-compose-1VgZv8d75Aw
