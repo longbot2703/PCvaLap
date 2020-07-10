@@ -27,3 +27,9 @@ https://viblo.asia/p/docker-compose-la-gi-kien-thuc-co-ban-ve-docker-compose-1Vg
 https://viblo.asia/p/trien-khai-web-tren-heroku-djeZ1RWglWz
 
 https://topdev.vn/blog/node-js-co-ban/
+
+https://www.codehub.vn/Restful-API-trong-5-phut
+
+https://laptrinhvien.io/hieu-ro-hon-ve-restful-api/
+
+https://medium.com/eway/nguy%C3%AAn-t%E1%BA%AFc-thi%E1%BA%BFt-k%E1%BA%BF-rest-api-23add16968d7
