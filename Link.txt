@@ -1,20 +1,8 @@
 https://linhchh96.wordpress.com/2019/05/12/cai-datdocker-va-docker-compose-tren-ubuntu/
 
-https://viblo.asia/p/tim-hieu-ve-docker-laradock-cach-deploy-laravel-su-dung-laradock-tren-ubuntu-WAyK8e99ZxX
-
-https://linhchh96.wordpress.com/2019/06/09/dung-moi-truong-bang-laradock-phan-1-apache2-va-mysql/
-
-https://techblog.vn/phan-1-kham-pha-laradock-a-full-php-development-environment-for-docker
-
-https://kipalog.com/posts/Trien-khai-du-an-laravel-voi-laradock--p-1
-
 http://blog.scuti.asia/2019/03/gioi-thieu-ve-docker-blogs-nay-chu-yeu.html
 
 https://gsviec.com/playlist/khoa-hoc-docker-can-ban
-
-https://linhchh96.wordpress.com/2020/04/11/deploy-code-laravel-len-heroku/
-
-https://viblo.asia/p/quan-ly-git-va-project-github-voi-atom-3P0lPvAGKox
 
 https://blog.vu-review.com/docker-toan-tap.html
 
@@ -23,3 +11,21 @@ https://viblo.asia/p/gioi-thieu-ve-laradock-lxrRXNDbzeO
 https://www.hostinger.vn/huong-dan/huong-dan-docker/
 
 https://viblo.asia/p/docker-compose-la-gi-kien-thuc-co-ban-ve-docker-compose-1VgZv8d75Aw
+
+
+====================TAO MOI TRUONG LARAVEL TREN DOCKER========================================
+https://linhchh96.wordpress.com/2019/06/09/dung-moi-truong-bang-laradock-phan-1-apache2-va-mysql/
+
+https://viblo.asia/p/tim-hieu-ve-docker-laradock-cach-deploy-laravel-su-dung-laradock-tren-ubuntu-WAyK8e99ZxX
+
+https://techblog.vn/phan-1-kham-pha-laradock-a-full-php-development-environment-for-docker
+
+https://kipalog.com/posts/Trien-khai-du-an-laravel-voi-laradock--p-1
+
+
+====================DEPLOY LARAVEL LEN HEROKU=================================================
+https://linhchh96.wordpress.com/2020/04/11/deploy-code-laravel-len-heroku/
+
+https://viblo.asia/p/quan-ly-git-va-project-github-voi-atom-3P0lPvAGKox
+
+
