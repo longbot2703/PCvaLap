@@ -51,3 +51,7 @@ https://viblo.asia/p/lam-nhu-the-nao-de-tao-mot-restful-api-bang-laravel-gGJ59X3
 https://viblo.asia/p/tim-hieu-va-xay-dung-restful-api-voi-laravel-5-maGK7kJxKj2
 
 https://viblo.asia/p/restful-api-trong-laravel-cho-nguoi-moi-bat-dau-ByEZkNaqKQ0
+
+https://viblo.asia/p/huong-dan-su-dung-postman-cho-test-api-aWj53Lb1K6m
+
+https://timoday.edu.vn/huong-dan-su-dung-postman-cho-thu-nghiem-api/
