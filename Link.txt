@@ -1,3 +1,8 @@
+=====================DOCKER====================================================
+https://www.hostinger.vn/huong-dan/huong-dan-docker/
+
+https://viblo.asia/p/docker-compose-la-gi-kien-thuc-co-ban-ve-docker-compose-1VgZv8d75Aw
+
 https://linhchh96.wordpress.com/2019/05/12/cai-datdocker-va-docker-compose-tren-ubuntu/
 
 http://blog.scuti.asia/2019/03/gioi-thieu-ve-docker-blogs-nay-chu-yeu.html
@@ -27,12 +32,6 @@ https://kipalog.com/posts/Trien-khai-du-an-laravel-voi-laradock--p-1
 https://linhchh96.wordpress.com/2020/04/11/deploy-code-laravel-len-heroku/
 
 https://viblo.asia/p/quan-ly-git-va-project-github-voi-atom-3P0lPvAGKox
-
-
-=====================DOCKER====================================================
-https://www.hostinger.vn/huong-dan/huong-dan-docker/
-
-https://viblo.asia/p/docker-compose-la-gi-kien-thuc-co-ban-ve-docker-compose-1VgZv8d75Aw
 
 https://viblo.asia/p/trien-khai-web-tren-heroku-djeZ1RWglWz
 
