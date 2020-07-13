@@ -38,8 +38,17 @@ https://viblo.asia/p/trien-khai-web-tren-heroku-djeZ1RWglWz
 
 https://topdev.vn/blog/node-js-co-ban/
 
+
+======================RESFUL API===============================================================
+
 https://www.codehub.vn/Restful-API-trong-5-phut
 
 https://laptrinhvien.io/hieu-ro-hon-ve-restful-api/
 
 https://medium.com/eway/nguy%C3%AAn-t%E1%BA%AFc-thi%E1%BA%BFt-k%E1%BA%BF-rest-api-23add16968d7
+
+https://viblo.asia/p/lam-nhu-the-nao-de-tao-mot-restful-api-bang-laravel-gGJ59X3DlX2
+
+https://viblo.asia/p/tim-hieu-va-xay-dung-restful-api-voi-laravel-5-maGK7kJxKj2
+
+https://viblo.asia/p/restful-api-trong-laravel-cho-nguoi-moi-bat-dau-ByEZkNaqKQ0
