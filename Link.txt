@@ -29,3 +29,17 @@ https://linhchh96.wordpress.com/2020/04/11/deploy-code-laravel-len-heroku/
 https://viblo.asia/p/quan-ly-git-va-project-github-voi-atom-3P0lPvAGKox
 
 
+=====================DOCKER====================================================
+https://www.hostinger.vn/huong-dan/huong-dan-docker/
+
+https://viblo.asia/p/docker-compose-la-gi-kien-thuc-co-ban-ve-docker-compose-1VgZv8d75Aw
+
+https://viblo.asia/p/trien-khai-web-tren-heroku-djeZ1RWglWz
+
+https://topdev.vn/blog/node-js-co-ban/
+
+https://www.codehub.vn/Restful-API-trong-5-phut
+
+https://laptrinhvien.io/hieu-ro-hon-ve-restful-api/
+
+https://medium.com/eway/nguy%C3%AAn-t%E1%BA%AFc-thi%E1%BA%BFt-k%E1%BA%BF-rest-api-23add16968d7
