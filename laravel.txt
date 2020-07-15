@@ -1,0 +1,62 @@
+Các bước tạo project laravel
+
+
+1.khởi tạo project:
+composer create-project laravel/laravel name_project
+2.Đặt lại time zone ở file .env của project
+'timezone' => 'Asia/Ho_Chi_Minh'
+3.Cài UI cho project
+composer require laravel/ui
+4.Cài auth cho project
+php artisan ui bootstrap --auth
+5.Chạy tạo table
+php artisan migrate
+
+//Tổng hợp lại các câu lệnh khởi tạo project laravel quan trọng:
+1. Tao project
+composer create-project laravel/laravel blog
+
+2. cai ui
+composer require laravel/ui
+
+3. chon ui va make auth
+php artisan ui bootstrap --auth
+
+4. chay tao table
+php artisan migrate
+
+5. Tạo table lưu trữ dữ liệu
+Post, Category, Comment, Tag
+
+php artisan make:model Post --migration
+php artisan make:model Category --migration
+php artisan make:model Comment --migration
+php artisan make:model Tag --migration
+
+Hoặc:
+php artisan make:model PostCategory -m
+php artisan make:model Comment -m
+php artisan make:model Video -m
+php artisan make:model Product -m
+
+Câu lệnh chỉ tạo model
+--php artisan make:model Post
+--php artisan make:migration create-posts-table
+--php artisan make:migration add_deleted_at_to_categories_table --table=categories
+--php artisan make:migration add_action_to_categories_table --table=categories
+php artisan make:model Post
+
+
+
+6. Câu lệnh chỉ tạo migration
+php artisan make:migration create-comments-table
+
+7. Tạo Controller
+--php artisan make:controller MyController
+php artisan make:controller CategoryController --resource
+php artisan make:controller PostController --resource
+
+8. Thêm route
+Route::resource('/category', 'CategoryController');
+Route::resource('/tag', 'TagController');
+Route::resource('/post', 'PostController');

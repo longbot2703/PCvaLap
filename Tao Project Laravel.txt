@@ -1,0 +1,105 @@
+====================================== TẠO PROJECT LARAVEL CHẠY MÔI TRƯỜNG DOCKER =============================================
+
+1, Tạo 1 folder gốc ( trong đó sẽ chứa folder laravel và folder laradock clone ở bước sau)
+
+2, Clone laravel mẫu vào thư mục gốc tại:  git clone https://github.com/laravel/laravel.git laravel_example 
+(trong đó laravel_example là tên project laravel của bạn)
+
+3, Clone laradock vào thư mục gốc tại : git clone https://github.com/Laradock/laradock.git
+
+4, cd vào laradock chạy lệnh : cp env-example .env 
+
+5, Mở file .env vừa tạo chỉnh: 
+
+	# Choose storage path on your machine. For all storage systems
+	DATA_PATH_HOST=~../laravel_example (laravel_example là folder chứa project laravel)
+	
+	### MYSQL #################################################
+
+	MYSQL_VERSION=lastest
+	MYSQL_DATABASE=mydatabase (tên db của bạn)
+	MYSQL_USER=long		  (tên user của bạn)
+	MYSQL_PASSWORD=root	  (chỉnh pass thành root)
+	MYSQL_PORT=3306
+	MYSQL_ROOT_PASSWORD=root
+	MYSQL_ENTRYPOINT_INITDB=./mysql/docker-entrypoint-initdb.d
+
+6, Chạy câu lệnh: docker-compose build nginx mysql phpmyadmin
+
+7, Chạy tiếp câu lệnh: docker-compose up -d --build nginx mysql phpmyadmin
+
+8, Chạy câu lệnh kiểm tra : docker-compose ps
+
+Nếu môi trường chưa chạy, chạy lại câu lệnh docker-compose up -d nginx mysql phpmyadmin
+
+*Chú ý: nếu báo lỗi ...default.key not permisson thì chạy lệnh: sudo chmod 777 /home/..default.key (copy đường dẫn đến file default.key)
+
+9, Sau khi đã tạo đc môi trường,chạy lệnh : docker-compose exec workspace bash
+
+10, Rồi sau đó tiến hành cài đặt composer laravel: composer install
+
+11, Sau khi chạy xong gõ tiếp : cp .env.example .env
+
+12, Chạy lệnh: php artisan key:generate
+
+13, Mở file .env trong thư mục chứa project laravel, sửa file:
+
+	DB_CONNECTION=mysql
+	DB_HOST=mysql       (nếu chạy bằng xampp thì sửa thành 127.0.0.1)
+	DB_PORT=3306
+	DB_DATABASE=mydb (tên db của bạn)
+	DB_USERNAME=root
+	DB_PASSWORD=root    (nếu chạy bằng xampp thì bỏ trống)
+
+14, Mở trình duyệt vào phpmyadmin bằng cách gõ: localhost:8081 (mặc định là v, nếu thay đổi port của phpmyadmin thì xem ở docker-compose ps)
+Đăng nhập với server: mysql
+	    username: root
+	    password: root
+Tạo mới 1 db với tên là mydb (tên db của bạn)
+
+15, Chuyển sang terminal chạy lệnh php artisan migrate
+
+16, Mở trình duyệt kiểm tra dc chưa: gõ localhost (cổng mặc định của nginx là 80 ko cần gõ thêm, nếu đã đổi cổng cần thêm, vd: localhost:8888)
+
+17, Chuyển về terminal chạy tiếp: Cài UI cho project:   composer require laravel/ui
+
+18, Cài auth cho project:    php artisan ui bootstrap --auth
+
+19, Tạo table lưu trữ dữ liệu:  php artisan make:model Post --migration
+
+Câu lệnh chỉ tạo model
+--php artisan make:model Post
+--php artisan make:migration create-posts-table
+--php artisan make:migration add_deleted_at_to_categories_table --table=categories
+--php artisan make:migration add_action_to_categories_table --table=categories
+php artisan make:model Post
+
+Câu lệnh chỉ tạo migration
+php artisan make:migration create-comments-table
+
+20, Vào laravel_example/database/migration thêm các trường cho bảng
+
+VD:  public function up()
+    {
+        Schema::create('customers', function (Blueprint $table) {
+            $table->bigIncrements('cus_id');
+            $table->string('cus_name');
+            $table->string('cus_email');
+            $table->timestamp('email_verified_at')->nullable();
+            $table->string('password');
+            $table->string('cus_phone');
+            $table->string('cus_addres');
+            $table->rememberToken();
+            $table->softDeletes();
+            $table->timestamps();
+        });
+    }
+
+21, Sang terminal chạy lệnh: php artisan migrate rollback rồi chạy tiếp php artisan migrate (với Win ko cần chạy rollback)
+Vào phpmyadmin kiểm tra db được chưa
+
+22, Tạo controller: php artisan make:controller PostController --resource
+
+23, Thêm route: Route::resource('/category', 'CategoryController');
+
+24, Chỉnh timezone: Mở laravel_example/config/app.php đổi timezone thành : 'timezone' => 'Asia/Ho_Chi_Minh',
