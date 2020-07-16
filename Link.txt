@@ -41,6 +41,12 @@ https://viblo.asia/p/tim-hieu-eloquent-trong-laravel-phan-1-eloquent-model-datab
 
 https://viblo.asia/p/exceptions-trong-laravel-lam-the-nao-de-catch-handle-va-tu-tao-mot-exception-de-xu-ly-van-de-cua-rieng-minh-bJzKmGnOl9N
 
+https://techtalk.vn/seeder-va-model-factory-trong-laravel.html
+
+https://viblo.asia/p/mot-so-thuoc-tinh-cua-thu-vien-faker-trong-laravel-bJzKmRVwZ9N
+
+https://hocwebchuan.com/tutorial/laravel/laravel_seeder.php
+
 
 ======================RESFUL API===============================================================
 
