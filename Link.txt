@@ -47,6 +47,12 @@ https://viblo.asia/p/mot-so-thuoc-tinh-cua-thu-vien-faker-trong-laravel-bJzKmRVw
 
 https://hocwebchuan.com/tutorial/laravel/laravel_seeder.php
 
+https://viblo.asia/p/validate-request-trong-laravel-bJzKmXd659N
+
+https://viblo.asia/p/form-request-validation-trong-laravel-07LKXzRPlV4
+
+https://nhat.dev/dev/tat-ca-phim-tat-mac-dinh-trong-phpstorm.html
+
 
 ======================RESFUL API===============================================================
 
