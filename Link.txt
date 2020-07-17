@@ -59,6 +59,14 @@ https://laravel.io/forum/how-do-you-include-custom-js-in-appjs
 
 https://stackoverflow.com/questions/39778765/include-custom-javascript-in-the-app-js
 
+https://stackoverflow.com/questions/52562369/use-custom-javascript-function-with-laravel-5-6
+
+https://stackoverflow.com/questions/28104583/how-to-include-external-css-and-js-file-in-laravel-5
+
+https://stackoverflow.com/questions/3809862/can-we-call-the-function-written-in-one-javascript-in-another-js-file
+
+https://stackoverflow.com/questions/48211891/import-functions-from-another-js-file-javascript
+
 
 ======================RESFUL API===============================================================
 
