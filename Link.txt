@@ -55,6 +55,10 @@ https://nhat.dev/dev/tat-ca-phim-tat-mac-dinh-trong-phpstorm.html
 
 https://laracasts.com/discuss/channels/laravel/how-to-add-custom-js-file-to-appjs-laravel-53
 
+https://laravel.io/forum/how-do-you-include-custom-js-in-appjs
+
+https://stackoverflow.com/questions/39778765/include-custom-javascript-in-the-app-js
+
 
 ======================RESFUL API===============================================================
 
