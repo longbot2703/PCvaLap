@@ -53,6 +53,8 @@ https://viblo.asia/p/form-request-validation-trong-laravel-07LKXzRPlV4
 
 https://nhat.dev/dev/tat-ca-phim-tat-mac-dinh-trong-phpstorm.html
 
+https://laracasts.com/discuss/channels/laravel/how-to-add-custom-js-file-to-appjs-laravel-53
+
 
 ======================RESFUL API===============================================================
 
