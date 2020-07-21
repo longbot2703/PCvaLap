@@ -67,6 +67,8 @@ https://stackoverflow.com/questions/3809862/can-we-call-the-function-written-in-
 
 https://stackoverflow.com/questions/48211891/import-functions-from-another-js-file-javascript
 
+https://chungnguyen.xyz/laravel/docs/mail.md
+
 
 ======================RESFUL API===============================================================
 
