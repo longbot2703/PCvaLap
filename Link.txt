@@ -69,6 +69,8 @@ https://stackoverflow.com/questions/48211891/import-functions-from-another-js-fi
 
 https://chungnguyen.xyz/laravel/docs/mail.md
 
+https://viblo.asia/p/bai-17-phan-quyen-trong-laravel-RnB5p0pD5PG
+
 
 ======================RESFUL API===============================================================
 
