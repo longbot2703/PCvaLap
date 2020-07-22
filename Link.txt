@@ -71,6 +71,18 @@ https://chungnguyen.xyz/laravel/docs/mail.md
 
 https://viblo.asia/p/bai-17-phan-quyen-trong-laravel-RnB5p0pD5PG
 
+public funtion userStore ($request){
+
+
+      $users->name = $request->name;
+      $users->email = $request->email; //name 1 trung voi ten trong table con name 2 trung view
+      $users->password = $request->password;
+      $users->roles = $request->roles;
+      $users->save();
+    }
+
+$user = User::userStore($request);
+
 
 ======================RESFUL API===============================================================
 
