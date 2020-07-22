@@ -83,6 +83,13 @@ public funtion userStore ($request){
 
 $user = User::userStore($request);
 
+https://stackoverflow.com/questions/41771209/implement-laravel-ajax-search-bar
+
+https://stackoverflow.com/questions/44498204/live-search-in-laravel-using-ajax
+
+https://stackoverflow.com/questions/32986757/search-data-with-ajax-in-laravel
+
+https://stackoverflow.com/questions/49629313/searching-with-ajax-and-laravel
 
 ======================RESFUL API===============================================================
 
