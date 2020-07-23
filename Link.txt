@@ -89,7 +89,9 @@ https://stackoverflow.com/questions/44498204/live-search-in-laravel-using-ajax
 
 https://stackoverflow.com/questions/32986757/search-data-with-ajax-in-laravel
 
-https://stackoverflow.com/questions/49629313/searching-with-ajax-and-laravel
+https://stackoverflow.com/questions/49629313/searching-with-ajax-and-laravelhttps://stackoverflow.com/questions/53310720/how-to-write-a-custom-function-in-a-model
+
+
 
 ======================RESFUL API===============================================================
 
