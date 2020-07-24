@@ -65,7 +65,7 @@ Tạo mới 1 db với tên là mydb (tên db của bạn)
 
 18, Cài auth cho project:    php artisan ui bootstrap --auth
 
-19, Tạo table lưu trữ dữ liệu:  php artisan make:model Post --migration
+19, Tạo table lưu trữ dữ liệu:  php artisan make:model Post --migration (Post là tên Model) sau khi gõ lệnh, trên database sẽ tạo 1 bảng tên là posts
 
 Câu lệnh chỉ tạo model
 --php artisan make:model Post
@@ -77,7 +77,7 @@ php artisan make:model Post
 Câu lệnh chỉ tạo migration
 php artisan make:migration create-comments-table
 
-20, Vào laravel_example/database/migration thêm các trường cho bảng
+20, Vào laravel_example/database/migration thêm các trường cho bảng vừa tạo (trong ví dụ là bảng customers)
 
 VD:  public function up()
     {
@@ -103,3 +103,23 @@ Vào phpmyadmin kiểm tra db được chưa
 23, Thêm route: Route::resource('/category', 'CategoryController');
 
 24, Chỉnh timezone: Mở laravel_example/config/app.php đổi timezone thành : 'timezone' => 'Asia/Ho_Chi_Minh',
+
+25, Thêm cột vào db sẵn có: VD thêm cột type vào bảng users:
+
+- php artisan make:migration add_type_to_users_table --table=users
+- Vào migration chỉnh
+- chạy: php artisan migrate:rollback
+- chạy: php artisan migrate
+
+26, Drop 1 cột: 
+	php artisan make:migration remove_type_from_users_table --table=users
+	Vào migration thêm:
+		$table->dropColumn('type');
+	php artisan migrate:rollback
+	php artisan migrate
+
+
+
+
+
+
