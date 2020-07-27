@@ -112,3 +112,7 @@ https://viblo.asia/p/restful-api-trong-laravel-cho-nguoi-moi-bat-dau-ByEZkNaqKQ0
 https://viblo.asia/p/huong-dan-su-dung-postman-cho-test-api-aWj53Lb1K6m
 
 https://timoday.edu.vn/huong-dan-su-dung-postman-cho-thu-nghiem-api/
+
+=================================PYTHON-------DJANGO============================================
+
+https://minhng.info/tutorials/hoc-django-trong-1-ngay.html
