@@ -95,6 +95,14 @@ https://stackoverflow.com/questions/53310720/how-to-write-a-custom-function-in-a
 
 https://viblo.asia/p/eloquent-relationships-in-laravel-phan-1-PdbGnoEdeyA
 
+https://toidicode.com/cac-moi-quan-he-relationships-trong-eloquent-14.html
+
+https://chungnguyen.xyz/posts/pivot-tables-va-moi-quan-he-nhieu-nhieu-many-to-many-relationship-trong-laravel
+
+https://viblo.asia/p/eloquent-relationships-in-laravel-53-chap-1-rQOvPNlyeYj
+
+https://laracasts.com/discuss/channels/eloquent/retrieve-data-from-many-to-many-relationship
+
 ======================RESFUL API===============================================================
 
 https://www.codehub.vn/Restful-API-trong-5-phut
