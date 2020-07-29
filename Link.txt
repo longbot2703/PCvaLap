@@ -107,6 +107,8 @@ https://bootstrapious.com/p/bootstrap-multiselect-dropdown
 
 https://jsfiddle.net/bootstrapious/rxqpfoe2/
 
+https://laravel.com/docs/5.0/eloquent#working-with-pivot-tables
+
 ======================RESFUL API===============================================================
 
 https://www.codehub.vn/Restful-API-trong-5-phut
