@@ -103,6 +103,10 @@ https://viblo.asia/p/eloquent-relationships-in-laravel-53-chap-1-rQOvPNlyeYj
 
 https://laracasts.com/discuss/channels/eloquent/retrieve-data-from-many-to-many-relationship
 
+https://bootstrapious.com/p/bootstrap-multiselect-dropdown
+
+https://jsfiddle.net/bootstrapious/rxqpfoe2/
+
 ======================RESFUL API===============================================================
 
 https://www.codehub.vn/Restful-API-trong-5-phut
