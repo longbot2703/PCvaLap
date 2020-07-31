@@ -109,6 +109,10 @@ https://jsfiddle.net/bootstrapious/rxqpfoe2/
 
 https://laravel.com/docs/5.0/eloquent#working-with-pivot-tables
 
+https://laracasts.com/discuss/channels/laravel/sqlstate23000-integrity-constraint-violation-1048-column-post-id-cannot-be-null-sql-insert-into-post-tag-post-id-tag-id-values-2-4-5
+
+https://viblo.asia/p/toi-uu-lai-code-laravel-cua-chinh-minh-eW65GwGJ5DO
+
 ======================RESFUL API===============================================================
 
 https://www.codehub.vn/Restful-API-trong-5-phut
