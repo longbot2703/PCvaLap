@@ -1,11 +1,21 @@
 ====================================== TẠO PROJECT LARAVEL CHẠY MÔI TRƯỜNG DOCKER =============================================
 
-1, Tạo 1 folder gốc ( trong đó sẽ chứa folder laravel và folder laradock clone ở bước sau)
+1.1, Cài đặt các extension cần thiết: sudo apt install php-xml php-mbstring php-bcmath php-zip unzip
 
-2, Clone laravel mẫu vào thư mục gốc tại:  git clone https://github.com/laravel/laravel.git laravel_example 
-(trong đó laravel_example là tên project laravel của bạn)
+1.2, composer require laravel/installer
 
-3, Clone laradock vào thư mục gốc tại : git clone https://github.com/Laradock/laradock.git
+1.3, echo 'export PATH="$HOME/vendor/bin:$PATH"' >> ~/.bashrc
+
+1.4, exec $SHELL
+
+1.5, tạo folder chứa prj laravel và laradock: mrdir blog (blog là tên folder)
+
+1.6, di chuyển vào folder vừa tạo: cd blog 
+
+1.7, tiến hành cài đặt laravel: laravel new blog (blog là tên prj laravel)
+	
+	
+3, Clone laradock vào thư mục gốc tại : git submodule add https://github.com/Laradock/laradock.git
 
 4, cd vào laradock chạy lệnh : cp env-example .env 
 
@@ -26,11 +36,11 @@
 
 6, Chạy câu lệnh: docker-compose build nginx mysql phpmyadmin
 
-7, Chạy tiếp câu lệnh: docker-compose up -d --build nginx mysql phpmyadmin
+7, Chạy tiếp câu lệnh: docker-compose up -d nginx mysql phpmyadmin
 
 8, Chạy câu lệnh kiểm tra : docker-compose ps
 
-Nếu môi trường chưa chạy, chạy lại câu lệnh docker-compose up -d nginx mysql phpmyadmin
+Nếu môi trường chưa chạy, chạy lại câu lệnh docker-compose up -d --build nginx mysql phpmyadmin
 
 *Chú ý: nếu báo lỗi ...default.key not permisson thì chạy lệnh: sudo chmod 777 /home/..default.key (copy đường dẫn đến file default.key)
 
@@ -57,15 +67,13 @@ Nếu môi trường chưa chạy, chạy lại câu lệnh docker-compose up -d
 	    password: root
 Tạo mới 1 db với tên là mydb (tên db của bạn)
 
-15, Chuyển sang terminal chạy lệnh php artisan migrate
-
 16, Mở trình duyệt kiểm tra dc chưa: gõ localhost (cổng mặc định của nginx là 80 ko cần gõ thêm, nếu đã đổi cổng cần thêm, vd: localhost:8888)
 
 17, Chuyển về terminal chạy tiếp: Cài UI cho project:   composer require laravel/ui
 
 18, Cài auth cho project:    php artisan ui bootstrap --auth
 
-19, Tạo table lưu trữ dữ liệu:  php artisan make:model Post --migration (Post là tên Model) sau khi gõ lệnh, trên database sẽ tạo 1 bảng tên là posts
+19, Tạo table lưu trữ dữ liệu:  php artisan make:model Post --migration (Post là tên Model) 
 
 Câu lệnh chỉ tạo model
 --php artisan make:model Post
@@ -95,7 +103,8 @@ VD:  public function up()
         });
     }
 
-21, Sang terminal chạy lệnh: php artisan migrate rollback rồi chạy tiếp php artisan migrate (với Win ko cần chạy rollback)
+21, Sang terminal chạy lệnh: php artisan migrate
+
 Vào phpmyadmin kiểm tra db được chưa
 
 22, Tạo controller: php artisan make:controller PostController --resource
@@ -108,18 +117,12 @@ Vào phpmyadmin kiểm tra db được chưa
 
 - php artisan make:migration add_type_to_users_table --table=users
 - Vào migration chỉnh
-- chạy: php artisan migrate:rollback
 - chạy: php artisan migrate
 
 26, Drop 1 cột: 
 	php artisan make:migration remove_type_from_users_table --table=users
 	Vào migration thêm:
 		$table->dropColumn('type');
-	php artisan migrate:rollback
 	php artisan migrate
-
-
-
-
 
 
