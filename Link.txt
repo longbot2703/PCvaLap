@@ -113,6 +113,8 @@ https://laracasts.com/discuss/channels/laravel/sqlstate23000-integrity-constrain
 
 https://viblo.asia/p/toi-uu-lai-code-laravel-cua-chinh-minh-eW65GwGJ5DO
 
+sudo chmod -R 777 storage
+
 ======================RESFUL API===============================================================
 
 https://www.codehub.vn/Restful-API-trong-5-phut
