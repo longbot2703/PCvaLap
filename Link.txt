@@ -115,6 +115,12 @@ https://viblo.asia/p/toi-uu-lai-code-laravel-cua-chinh-minh-eW65GwGJ5DO
 
 sudo chmod -R 777 storage
 
+@if (session('status'))
+        <div class="alert alert-info">{{session('status')}}</div>
+    @endif
+
+https://topdev.vn/blog/lam-the-nao-de-deploy-du-an-laravel-len-azure-web-app-mien-phi/
+
 ======================RESFUL API===============================================================
 
 https://www.codehub.vn/Restful-API-trong-5-phut
