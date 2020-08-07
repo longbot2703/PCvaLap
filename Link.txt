@@ -121,6 +121,10 @@ sudo chmod -R 777 storage
 
 https://topdev.vn/blog/lam-the-nao-de-deploy-du-an-laravel-len-azure-web-app-mien-phi/
 
+https://viblo.asia/p/awesome-laravel-tips-tricks-phan-1-RQqKLPaNK7z
+
+https://viblo.asia/p/awesome-laravel-tips-tricks-phan-2-ByEZkQGq5Q0
+
 ======================RESFUL API===============================================================
 
 https://www.codehub.vn/Restful-API-trong-5-phut
