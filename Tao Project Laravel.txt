@@ -126,3 +126,8 @@ Vào phpmyadmin kiểm tra db được chưa
 	php artisan migrate
 
 
+27, sau khi key:generate, quay lai thu muc prj go sudo chmod 777 -R SEKI (SEKI folder chua laravel)
+
+28, go lenh git config core.fileMode false
+
+29, cd vao laradock, vao workspace go lenh npm run watch-poll

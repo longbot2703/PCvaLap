@@ -125,6 +125,14 @@ https://viblo.asia/p/awesome-laravel-tips-tricks-phan-1-RQqKLPaNK7z
 
 https://viblo.asia/p/awesome-laravel-tips-tricks-phan-2-ByEZkQGq5Q0
 
+https://viblo.asia/p/20-thu-thuat-nho-nho-voi-eloquent-laravel-phan-1-Az45bgWzKxY
+
+https://viblo.asia/p/20-thu-thuat-nho-nho-voi-eloquent-laravel-phan-2-WAyK8MpEZxX
+
+https://viblo.asia/p/gioi-thieu-mot-so-package-laravel-phan-2-L4x5xdgr5BM
+
+https://viblo.asia/u/Vector
+
 ======================RESFUL API===============================================================
 
 https://www.codehub.vn/Restful-API-trong-5-phut
@@ -146,3 +154,11 @@ https://timoday.edu.vn/huong-dan-su-dung-postman-cho-thu-nghiem-api/
 =================================PYTHON-------DJANGO============================================
 
 https://minhng.info/tutorials/hoc-django-trong-1-ngay.html
+
+====================================VUEJS------QUASAR===========================================
+
+https://www.learningsomethingnew.com/how-to-build-a-sound-cloud-like-audio-player-app-with-vue-js-quasar-and-wave-surfer
+
+https://v1study.com/vuejs-huong-dan-lam-website-spa-voi-vuejs-axios-laravel.html
+
+https://viblo.asia/p/bai-1-cai-dat-vue-va-chay-chuong-trinh-hello-world-dau-tien-3P0lPzyoKox
