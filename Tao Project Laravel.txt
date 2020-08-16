@@ -70,7 +70,7 @@ Tạo mới 1 db với tên là mydb (tên db của bạn)
 16, Mở trình duyệt kiểm tra dc chưa: gõ localhost (cổng mặc định của nginx là 80 ko cần gõ thêm, nếu đã đổi cổng cần thêm, vd: localhost:8888)
 
 17, Chuyển về terminal chạy tiếp: Cài UI cho project:   composer require laravel/ui
-
+(đến đây có thể push prj lên để tránh conflict sau này khi làm auth)
 18, Cài auth cho project:    php artisan ui bootstrap --auth
 
 19, Tạo table lưu trữ dữ liệu:  php artisan make:model Post --migration (Post là tên Model) 
