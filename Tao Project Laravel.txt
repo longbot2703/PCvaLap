@@ -15,7 +15,7 @@
 1.7, tiến hành cài đặt laravel: laravel new blog (blog là tên prj laravel)
 	
 	
-3, Clone laradock vào thư mục gốc tại : git submodule add https://github.com/Laradock/laradock.git
+3, Clone laradock vào thư mục gốc tại : git submodule add https://github.com/Laradock/laradock.git ( hoac git clone https://github.com/Laradock/laradock.git )
 
 4, cd vào laradock chạy lệnh : cp env-example .env 
 
@@ -131,3 +131,6 @@ Vào phpmyadmin kiểm tra db được chưa
 28, go lenh git config core.fileMode false
 
 29, cd vao laradock, vao workspace go lenh npm run watch-poll
+
+30, ko commit sau khi chmod folder : git config core.fileMode false
+
