@@ -146,3 +146,6 @@ https://timoday.edu.vn/huong-dan-su-dung-postman-cho-thu-nghiem-api/
 =================================PYTHON-------DJANGO============================================
 
 https://minhng.info/tutorials/hoc-django-trong-1-ngay.html
+
+==============================================VUEJS======================================================
+https://vuejs.org/v2/guide/forms.html#Checkbox
