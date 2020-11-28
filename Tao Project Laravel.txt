@@ -15,7 +15,7 @@
 1.7, tiến hành cài đặt laravel: laravel new blog (blog là tên prj laravel)
 	
 	
-3, Clone laradock vào thư mục gốc tại : git submodule add https://github.com/Laradock/laradock.git
+3, Clone laradock vào thư mục gốc tại : git submodule add https://github.com/Laradock/laradock.git ( hoac git clone https://github.com/Laradock/laradock.git )
 
 4, cd vào laradock chạy lệnh : cp env-example .env 
 
@@ -70,7 +70,7 @@ Tạo mới 1 db với tên là mydb (tên db của bạn)
 16, Mở trình duyệt kiểm tra dc chưa: gõ localhost (cổng mặc định của nginx là 80 ko cần gõ thêm, nếu đã đổi cổng cần thêm, vd: localhost:8888)
 
 17, Chuyển về terminal chạy tiếp: Cài UI cho project:   composer require laravel/ui
-
+(đến đây có thể push prj lên để tránh conflict sau này khi làm auth)
 18, Cài auth cho project:    php artisan ui bootstrap --auth
 
 19, Tạo table lưu trữ dữ liệu:  php artisan make:model Post --migration (Post là tên Model) 
@@ -125,4 +125,12 @@ Vào phpmyadmin kiểm tra db được chưa
 		$table->dropColumn('type');
 	php artisan migrate
 
+
+27, sau khi key:generate, quay lai thu muc prj go sudo chmod 777 -R SEKI (SEKI folder chua laravel)
+
+28, go lenh git config core.fileMode false
+
+29, cd vao laradock, vao workspace go lenh npm run watch-poll
+
+30, ko commit sau khi chmod folder : git config core.fileMode false
 
